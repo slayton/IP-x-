@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		173FE317187320FF0022B562 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173FE316187320FF0022B562 /* Cocoa.framework */; };
+		173FE321187320FF0022B562 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 173FE31F187320FF0022B562 /* InfoPlist.strings */; };
+		173FE323187320FF0022B562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 173FE322187320FF0022B562 /* main.m */; };
+		173FE327187320FF0022B562 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 173FE325187320FF0022B562 /* Credits.rtf */; };
+		173FE32A187320FF0022B562 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 173FE329187320FF0022B562 /* AppDelegate.m */; };
+		173FE32D187320FF0022B562 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 173FE32B187320FF0022B562 /* MainMenu.xib */; };
+		173FE32F187320FF0022B562 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173FE32E187320FF0022B562 /* Images.xcassets */; };
+		173FE336187320FF0022B562 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173FE335187320FF0022B562 /* XCTest.framework */; };
+		173FE337187320FF0022B562 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173FE316187320FF0022B562 /* Cocoa.framework */; };
+		173FE33F187320FF0022B562 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 173FE33D187320FF0022B562 /* InfoPlist.strings */; };
+		173FE341187320FF0022B562 /* OSX_IPython_Notebook_LauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 173FE340187320FF0022B562 /* OSX_IPython_Notebook_LauncherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		173FE338187320FF0022B562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 173FE30B187320FF0022B562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173FE312187320FF0022B562;
+			remoteInfo = "OSX IPython Notebook Launcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		173FE313187320FF0022B562 /* OSX IPython Notebook Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OSX IPython Notebook Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		173FE316187320FF0022B562 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		173FE319187320FF0022B562 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		173FE31A187320FF0022B562 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		173FE31B187320FF0022B562 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		173FE31E187320FF0022B562 /* OSX IPython Notebook Launcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSX IPython Notebook Launcher-Info.plist"; sourceTree = "<group>"; };
+		173FE320187320FF0022B562 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		173FE322187320FF0022B562 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		173FE324187320FF0022B562 /* OSX IPython Notebook Launcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSX IPython Notebook Launcher-Prefix.pch"; sourceTree = "<group>"; };
+		173FE326187320FF0022B562 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		173FE328187320FF0022B562 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		173FE329187320FF0022B562 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		173FE32C187320FF0022B562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		173FE32E187320FF0022B562 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		173FE334187320FF0022B562 /* OSX IPython Notebook LauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OSX IPython Notebook LauncherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		173FE335187320FF0022B562 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		173FE33C187320FF0022B562 /* OSX IPython Notebook LauncherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSX IPython Notebook LauncherTests-Info.plist"; sourceTree = "<group>"; };
+		173FE33E187320FF0022B562 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		173FE340187320FF0022B562 /* OSX_IPython_Notebook_LauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSX_IPython_Notebook_LauncherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		173FE310187320FF0022B562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173FE317187320FF0022B562 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173FE331187320FF0022B562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173FE337187320FF0022B562 /* Cocoa.framework in Frameworks */,
+				173FE336187320FF0022B562 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		173FE30A187320FF0022B562 = {
+			isa = PBXGroup;
+			children = (
+				173FE31C187320FF0022B562 /* OSX IPython Notebook Launcher */,
+				173FE33A187320FF0022B562 /* OSX IPython Notebook LauncherTests */,
+				173FE315187320FF0022B562 /* Frameworks */,
+				173FE314187320FF0022B562 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		173FE314187320FF0022B562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				173FE313187320FF0022B562 /* OSX IPython Notebook Launcher.app */,
+				173FE334187320FF0022B562 /* OSX IPython Notebook LauncherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		173FE315187320FF0022B562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				173FE316187320FF0022B562 /* Cocoa.framework */,
+				173FE335187320FF0022B562 /* XCTest.framework */,
+				173FE318187320FF0022B562 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		173FE318187320FF0022B562 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				173FE319187320FF0022B562 /* AppKit.framework */,
+				173FE31A187320FF0022B562 /* CoreData.framework */,
+				173FE31B187320FF0022B562 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		173FE31C187320FF0022B562 /* OSX IPython Notebook Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				173FE328187320FF0022B562 /* AppDelegate.h */,
+				173FE329187320FF0022B562 /* AppDelegate.m */,
+				173FE32B187320FF0022B562 /* MainMenu.xib */,
+				173FE32E187320FF0022B562 /* Images.xcassets */,
+				173FE31D187320FF0022B562 /* Supporting Files */,
+			);
+			path = "OSX IPython Notebook Launcher";
+			sourceTree = "<group>";
+		};
+		173FE31D187320FF0022B562 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				173FE31E187320FF0022B562 /* OSX IPython Notebook Launcher-Info.plist */,
+				173FE31F187320FF0022B562 /* InfoPlist.strings */,
+				173FE322187320FF0022B562 /* main.m */,
+				173FE324187320FF0022B562 /* OSX IPython Notebook Launcher-Prefix.pch */,
+				173FE325187320FF0022B562 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		173FE33A187320FF0022B562 /* OSX IPython Notebook LauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				173FE340187320FF0022B562 /* OSX_IPython_Notebook_LauncherTests.m */,
+				173FE33B187320FF0022B562 /* Supporting Files */,
+			);
+			path = "OSX IPython Notebook LauncherTests";
+			sourceTree = "<group>";
+		};
+		173FE33B187320FF0022B562 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				173FE33C187320FF0022B562 /* OSX IPython Notebook LauncherTests-Info.plist */,
+				173FE33D187320FF0022B562 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		173FE312187320FF0022B562 /* OSX IPython Notebook Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173FE344187320FF0022B562 /* Build configuration list for PBXNativeTarget "OSX IPython Notebook Launcher" */;
+			buildPhases = (
+				173FE30F187320FF0022B562 /* Sources */,
+				173FE310187320FF0022B562 /* Frameworks */,
+				173FE311187320FF0022B562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OSX IPython Notebook Launcher";
+			productName = "OSX IPython Notebook Launcher";
+			productReference = 173FE313187320FF0022B562 /* OSX IPython Notebook Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		173FE333187320FF0022B562 /* OSX IPython Notebook LauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 173FE347187320FF0022B562 /* Build configuration list for PBXNativeTarget "OSX IPython Notebook LauncherTests" */;
+			buildPhases = (
+				173FE330187320FF0022B562 /* Sources */,
+				173FE331187320FF0022B562 /* Frameworks */,
+				173FE332187320FF0022B562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173FE339187320FF0022B562 /* PBXTargetDependency */,
+			);
+			name = "OSX IPython Notebook LauncherTests";
+			productName = "OSX IPython Notebook LauncherTests";
+			productReference = 173FE334187320FF0022B562 /* OSX IPython Notebook LauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		173FE30B187320FF0022B562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stuart Layton";
+				TargetAttributes = {
+					173FE333187320FF0022B562 = {
+						TestTargetID = 173FE312187320FF0022B562;
+					};
+				};
+			};
+			buildConfigurationList = 173FE30E187320FF0022B562 /* Build configuration list for PBXProject "OSX IPython Notebook Launcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 173FE30A187320FF0022B562;
+			productRefGroup = 173FE314187320FF0022B562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				173FE312187320FF0022B562 /* OSX IPython Notebook Launcher */,
+				173FE333187320FF0022B562 /* OSX IPython Notebook LauncherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		173FE311187320FF0022B562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173FE321187320FF0022B562 /* InfoPlist.strings in Resources */,
+				173FE32F187320FF0022B562 /* Images.xcassets in Resources */,
+				173FE327187320FF0022B562 /* Credits.rtf in Resources */,
+				173FE32D187320FF0022B562 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173FE332187320FF0022B562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173FE33F187320FF0022B562 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		173FE30F187320FF0022B562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173FE32A187320FF0022B562 /* AppDelegate.m in Sources */,
+				173FE323187320FF0022B562 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		173FE330187320FF0022B562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				173FE341187320FF0022B562 /* OSX_IPython_Notebook_LauncherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		173FE339187320FF0022B562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 173FE312187320FF0022B562 /* OSX IPython Notebook Launcher */;
+			targetProxy = 173FE338187320FF0022B562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		173FE31F187320FF0022B562 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173FE320187320FF0022B562 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		173FE325187320FF0022B562 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173FE326187320FF0022B562 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		173FE32B187320FF0022B562 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173FE32C187320FF0022B562 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		173FE33D187320FF0022B562 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				173FE33E187320FF0022B562 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		173FE342187320FF0022B562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		173FE343187320FF0022B562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		173FE345187320FF0022B562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSX IPython Notebook Launcher/OSX IPython Notebook Launcher-Prefix.pch";
+				INFOPLIST_FILE = "OSX IPython Notebook Launcher/OSX IPython Notebook Launcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		173FE346187320FF0022B562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSX IPython Notebook Launcher/OSX IPython Notebook Launcher-Prefix.pch";
+				INFOPLIST_FILE = "OSX IPython Notebook Launcher/OSX IPython Notebook Launcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		173FE348187320FF0022B562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSX IPython Notebook Launcher.app/Contents/MacOS/OSX IPython Notebook Launcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSX IPython Notebook Launcher/OSX IPython Notebook Launcher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OSX IPython Notebook LauncherTests/OSX IPython Notebook LauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		173FE349187320FF0022B562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSX IPython Notebook Launcher.app/Contents/MacOS/OSX IPython Notebook Launcher";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSX IPython Notebook Launcher/OSX IPython Notebook Launcher-Prefix.pch";
+				INFOPLIST_FILE = "OSX IPython Notebook LauncherTests/OSX IPython Notebook LauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		173FE30E187320FF0022B562 /* Build configuration list for PBXProject "OSX IPython Notebook Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173FE342187320FF0022B562 /* Debug */,
+				173FE343187320FF0022B562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		173FE344187320FF0022B562 /* Build configuration list for PBXNativeTarget "OSX IPython Notebook Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173FE345187320FF0022B562 /* Debug */,
+				173FE346187320FF0022B562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		173FE347187320FF0022B562 /* Build configuration list for PBXNativeTarget "OSX IPython Notebook LauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173FE348187320FF0022B562 /* Debug */,
+				173FE349187320FF0022B562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 173FE30B187320FF0022B562 /* Project object */;
+}
