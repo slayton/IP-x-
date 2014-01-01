@@ -8,31 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		173FE317187320FF0022B562 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173FE316187320FF0022B562 /* Cocoa.framework */; };
-		173FE323187320FF0022B562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 173FE322187320FF0022B562 /* main.m */; };
-		173FE32A187320FF0022B562 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 173FE329187320FF0022B562 /* AppDelegate.m */; };
-		173FE32D187320FF0022B562 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 173FE32B187320FF0022B562 /* MainMenu.xib */; };
-		173FE336187320FF0022B562 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173FE335187320FF0022B562 /* XCTest.framework */; };
-		173FE337187320FF0022B562 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173FE316187320FF0022B562 /* Cocoa.framework */; };
-		173FE341187320FF0022B562 /* OSX_IPython_Notebook_LauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 173FE340187320FF0022B562 /* OSX_IPython_Notebook_LauncherTests.m */; };
-		173FE35E187332F00022B562 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 173FE35C187332F00022B562 /* MasterViewController.m */; };
-		173FE35F187332F00022B562 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 173FE35D187332F00022B562 /* MasterViewController.xib */; };
-		173FE37918734A060022B562 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 173FE37818734A060022B562 /* Localizable.strings */; };
-		173FE37E18734D070022B562 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 173FE37D18734D070022B562 /* Util.m */; };
 		179254BF18737A0B00D725DB /* icon-red.icns in Resources */ = {isa = PBXBuildFile; fileRef = 179254BE18737A0B00D725DB /* icon-red.icns */; };
 		179254C118737A1300D725DB /* icon-green.icns in Resources */ = {isa = PBXBuildFile; fileRef = 179254C018737A1300D725DB /* icon-green.icns */; };
-		179254C518737A4800D725DB /* logo-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 179254C318737A4800D725DB /* logo-red.png */; };
-		179254C718737A7900D725DB /* logo-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 179254C618737A7900D725DB /* logo-green.png */; };
+		179254E11873A11800D725DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 179254CA1873A11800D725DB /* AppDelegate.m */; };
+		179254E31873A11800D725DB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 179254CD1873A11800D725DB /* Credits.rtf */; };
+		179254E41873A11800D725DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 179254CF1873A11800D725DB /* InfoPlist.strings */; };
+		179254E51873A11800D725DB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 179254D11873A11800D725DB /* Localizable.strings */; };
+		179254E71873A11800D725DB /* IP[x]-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 179254D61873A11800D725DB /* IP[x]-Info.plist */; };
+		179254E81873A11800D725DB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 179254D81873A11800D725DB /* Localizable.strings */; };
+		179254E91873A11800D725DB /* logo-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 179254D91873A11800D725DB /* logo-green.png */; };
+		179254EA1873A11800D725DB /* logo-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 179254DA1873A11800D725DB /* logo-red.png */; };
+		179254EB1873A11800D725DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 179254DB1873A11800D725DB /* main.m */; };
+		179254EC1873A11800D725DB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 179254DD1873A11800D725DB /* MasterViewController.m */; };
+		179254ED1873A11800D725DB /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 179254DE1873A11800D725DB /* MasterViewController.xib */; };
+		179254EE1873A11800D725DB /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 179254E01873A11800D725DB /* Util.m */; };
+		179254F71873A18600D725DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 179254CB1873A11800D725DB /* MainMenu.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		173FE338187320FF0022B562 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 173FE30B187320FF0022B562 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 173FE312187320FF0022B562;
-			remoteInfo = "OSX IPython Notebook Launcher";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		173FE313187320FF0022B562 /* IP[x].app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IP[x].app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,26 +31,26 @@
 		173FE319187320FF0022B562 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		173FE31A187320FF0022B562 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		173FE31B187320FF0022B562 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		173FE31E187320FF0022B562 /* IP[x]-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IP[x]-Info.plist"; sourceTree = "<group>"; };
-		173FE322187320FF0022B562 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		173FE324187320FF0022B562 /* IP[x]-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IP[x]-Prefix.pch"; sourceTree = "<group>"; };
-		173FE328187320FF0022B562 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		173FE329187320FF0022B562 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		173FE32C187320FF0022B562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		173FE334187320FF0022B562 /* IP[x]Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IP[x]Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		173FE335187320FF0022B562 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		173FE33C187320FF0022B562 /* OSX IPython Notebook LauncherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSX IPython Notebook LauncherTests-Info.plist"; sourceTree = "<group>"; };
-		173FE340187320FF0022B562 /* OSX_IPython_Notebook_LauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSX_IPython_Notebook_LauncherTests.m; sourceTree = "<group>"; };
-		173FE35B187332F00022B562 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		173FE35C187332F00022B562 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		173FE35D187332F00022B562 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
-		173FE37818734A060022B562 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		173FE37C18734D070022B562 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
-		173FE37D18734D070022B562 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		179254BE18737A0B00D725DB /* icon-red.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "icon-red.icns"; path = "../icon-red.icns"; sourceTree = "<group>"; };
 		179254C018737A1300D725DB /* icon-green.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "icon-green.icns"; path = "../icon-green.icns"; sourceTree = "<group>"; };
-		179254C318737A4800D725DB /* logo-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-red.png"; sourceTree = "<group>"; };
-		179254C618737A7900D725DB /* logo-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-green.png"; sourceTree = "<group>"; };
+		179254C91873A11800D725DB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		179254CA1873A11800D725DB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		179254CC1873A11800D725DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		179254CE1873A11800D725DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		179254D01873A11800D725DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		179254D21873A11800D725DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		179254D61873A11800D725DB /* IP[x]-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IP[x]-Info.plist"; sourceTree = "<group>"; };
+		179254D71873A11800D725DB /* IP[x]-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IP[x]-Prefix.pch"; sourceTree = "<group>"; };
+		179254D81873A11800D725DB /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		179254D91873A11800D725DB /* logo-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-green.png"; sourceTree = "<group>"; };
+		179254DA1873A11800D725DB /* logo-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-red.png"; sourceTree = "<group>"; };
+		179254DB1873A11800D725DB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		179254DC1873A11800D725DB /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		179254DD1873A11800D725DB /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		179254DE1873A11800D725DB /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		179254DF1873A11800D725DB /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		179254E01873A11800D725DB /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,23 +62,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		173FE331187320FF0022B562 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				173FE337187320FF0022B562 /* Cocoa.framework in Frameworks */,
-				173FE336187320FF0022B562 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		173FE30A187320FF0022B562 = {
 			isa = PBXGroup;
 			children = (
-				173FE31C187320FF0022B562 /* OSX IPython Notebook Launcher */,
-				173FE33A187320FF0022B562 /* OSX IPython Notebook LauncherTests */,
+				179254C81873A11800D725DB /* IP[x] */,
 				173FE315187320FF0022B562 /* Frameworks */,
 				173FE314187320FF0022B562 /* Products */,
 			);
@@ -97,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				173FE313187320FF0022B562 /* IP[x].app */,
-				173FE334187320FF0022B562 /* IP[x]Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,92 +102,62 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		173FE31C187320FF0022B562 /* OSX IPython Notebook Launcher */ = {
+		179254C81873A11800D725DB /* IP[x] */ = {
 			isa = PBXGroup;
 			children = (
-				173FE361187333C00022B562 /* Source */,
-				173FE352187329FD0022B562 /* Resources */,
-				173FE31D187320FF0022B562 /* Supporting Files */,
+				179254FC1873A24B00D725DB /* Source */,
+				179254F81873A21D00D725DB /* Resources */,
+				179254CD1873A11800D725DB /* Credits.rtf */,
+				179254D61873A11800D725DB /* IP[x]-Info.plist */,
+				179254D71873A11800D725DB /* IP[x]-Prefix.pch */,
+				179254D81873A11800D725DB /* Localizable.strings */,
 			);
-			path = "OSX IPython Notebook Launcher";
+			path = "IP[x]";
 			sourceTree = "<group>";
 		};
-		173FE31D187320FF0022B562 /* Supporting Files */ = {
+		179254F81873A21D00D725DB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				173FE31E187320FF0022B562 /* IP[x]-Info.plist */,
-				173FE322187320FF0022B562 /* main.m */,
-				173FE324187320FF0022B562 /* IP[x]-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		173FE33A187320FF0022B562 /* OSX IPython Notebook LauncherTests */ = {
-			isa = PBXGroup;
-			children = (
-				173FE340187320FF0022B562 /* OSX_IPython_Notebook_LauncherTests.m */,
-				173FE33B187320FF0022B562 /* Supporting Files */,
-			);
-			path = "OSX IPython Notebook LauncherTests";
-			sourceTree = "<group>";
-		};
-		173FE33B187320FF0022B562 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				173FE33C187320FF0022B562 /* OSX IPython Notebook LauncherTests-Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		173FE352187329FD0022B562 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				173FE360187333AC0022B562 /* Layouts */,
-				173FE372187346210022B562 /* Strings */,
-				173FE370187346130022B562 /* Images */,
+				179254CF1873A11800D725DB /* InfoPlist.strings */,
+				179254D11873A11800D725DB /* Localizable.strings */,
+				179254FA1873A22600D725DB /* Layouts */,
+				179254F91873A22200D725DB /* Images */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		173FE360187333AC0022B562 /* Layouts */ = {
+		179254F91873A22200D725DB /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				173FE35D187332F00022B562 /* MasterViewController.xib */,
-				173FE32B187320FF0022B562 /* MainMenu.xib */,
-			);
-			name = Layouts;
-			sourceTree = "<group>";
-		};
-		173FE361187333C00022B562 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				173FE328187320FF0022B562 /* AppDelegate.h */,
-				173FE329187320FF0022B562 /* AppDelegate.m */,
-				173FE35B187332F00022B562 /* MasterViewController.h */,
-				173FE35C187332F00022B562 /* MasterViewController.m */,
-				173FE37C18734D070022B562 /* Util.h */,
-				173FE37D18734D070022B562 /* Util.m */,
-			);
-			name = Source;
-			sourceTree = "<group>";
-		};
-		173FE370187346130022B562 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				179254C618737A7900D725DB /* logo-green.png */,
-				179254C318737A4800D725DB /* logo-red.png */,
-				179254C018737A1300D725DB /* icon-green.icns */,
 				179254BE18737A0B00D725DB /* icon-red.icns */,
+				179254C018737A1300D725DB /* icon-green.icns */,
+				179254D91873A11800D725DB /* logo-green.png */,
+				179254DA1873A11800D725DB /* logo-red.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
 		};
-		173FE372187346210022B562 /* Strings */ = {
+		179254FA1873A22600D725DB /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
-				173FE37818734A060022B562 /* Localizable.strings */,
+				179254DE1873A11800D725DB /* MasterViewController.xib */,
+				179254CB1873A11800D725DB /* MainMenu.xib */,
 			);
-			name = Strings;
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		179254FC1873A24B00D725DB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				179254C91873A11800D725DB /* AppDelegate.h */,
+				179254CA1873A11800D725DB /* AppDelegate.m */,
+				179254DB1873A11800D725DB /* main.m */,
+				179254DC1873A11800D725DB /* MasterViewController.h */,
+				179254DD1873A11800D725DB /* MasterViewController.m */,
+				179254DF1873A11800D725DB /* Util.h */,
+				179254E01873A11800D725DB /* Util.m */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,24 +180,6 @@
 			productReference = 173FE313187320FF0022B562 /* IP[x].app */;
 			productType = "com.apple.product-type.application";
 		};
-		173FE333187320FF0022B562 /* IP[x]Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 173FE347187320FF0022B562 /* Build configuration list for PBXNativeTarget "IP[x]Tests" */;
-			buildPhases = (
-				173FE330187320FF0022B562 /* Sources */,
-				173FE331187320FF0022B562 /* Frameworks */,
-				173FE332187320FF0022B562 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				173FE339187320FF0022B562 /* PBXTargetDependency */,
-			);
-			name = "IP[x]Tests";
-			productName = "OSX IPython Notebook LauncherTests";
-			productReference = 173FE334187320FF0022B562 /* IP[x]Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -256,11 +188,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Stuart Layton";
-				TargetAttributes = {
-					173FE333187320FF0022B562 = {
-						TestTargetID = 173FE312187320FF0022B562;
-					};
-				};
 			};
 			buildConfigurationList = 173FE30E187320FF0022B562 /* Build configuration list for PBXProject "IP[x]" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -269,6 +196,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 173FE30A187320FF0022B562;
 			productRefGroup = 173FE314187320FF0022B562 /* Products */;
@@ -276,7 +204,6 @@
 			projectRoot = "";
 			targets = (
 				173FE312187320FF0022B562 /* IP[x] */,
-				173FE333187320FF0022B562 /* IP[x]Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,20 +213,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				179254C518737A4800D725DB /* logo-red.png in Resources */,
-				173FE35F187332F00022B562 /* MasterViewController.xib in Resources */,
-				179254C718737A7900D725DB /* logo-green.png in Resources */,
+				179254F71873A18600D725DB /* MainMenu.xib in Resources */,
 				179254BF18737A0B00D725DB /* icon-red.icns in Resources */,
-				173FE37918734A060022B562 /* Localizable.strings in Resources */,
-				173FE32D187320FF0022B562 /* MainMenu.xib in Resources */,
+				179254E51873A11800D725DB /* Localizable.strings in Resources */,
+				179254EA1873A11800D725DB /* logo-red.png in Resources */,
 				179254C118737A1300D725DB /* icon-green.icns in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		173FE332187320FF0022B562 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				179254E81873A11800D725DB /* Localizable.strings in Resources */,
+				179254E71873A11800D725DB /* IP[x]-Info.plist in Resources */,
+				179254E91873A11800D725DB /* logo-green.png in Resources */,
+				179254ED1873A11800D725DB /* MasterViewController.xib in Resources */,
+				179254E31873A11800D725DB /* Credits.rtf in Resources */,
+				179254E41873A11800D725DB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,38 +234,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				173FE37E18734D070022B562 /* Util.m in Sources */,
-				173FE32A187320FF0022B562 /* AppDelegate.m in Sources */,
-				173FE35E187332F00022B562 /* MasterViewController.m in Sources */,
-				173FE323187320FF0022B562 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		173FE330187320FF0022B562 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				173FE341187320FF0022B562 /* OSX_IPython_Notebook_LauncherTests.m in Sources */,
+				179254EB1873A11800D725DB /* main.m in Sources */,
+				179254EC1873A11800D725DB /* MasterViewController.m in Sources */,
+				179254E11873A11800D725DB /* AppDelegate.m in Sources */,
+				179254EE1873A11800D725DB /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		173FE339187320FF0022B562 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 173FE312187320FF0022B562 /* IP[x] */;
-			targetProxy = 173FE338187320FF0022B562 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		173FE32B187320FF0022B562 /* MainMenu.xib */ = {
+		179254CB1873A11800D725DB /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				173FE32C187320FF0022B562 /* Base */,
+				179254CC1873A11800D725DB /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		179254CD1873A11800D725DB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179254CE1873A11800D725DB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		179254CF1873A11800D725DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179254D01873A11800D725DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		179254D11873A11800D725DB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179254D21873A11800D725DB /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,8 +352,8 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OSX IPython Notebook Launcher/IP[x]-Prefix.pch";
-				INFOPLIST_FILE = "OSX IPython Notebook Launcher/IP[x]-Info.plist";
+				GCC_PREFIX_HEADER = "IP[x]/IP[x]-Prefix.pch";
+				INFOPLIST_FILE = "IP[x]/IP[x]-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -432,50 +364,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OSX IPython Notebook Launcher/IP[x]-Prefix.pch";
-				INFOPLIST_FILE = "OSX IPython Notebook Launcher/IP[x]-Info.plist";
+				GCC_PREFIX_HEADER = "IP[x]/IP[x]-Prefix.pch";
+				INFOPLIST_FILE = "IP[x]/IP[x]-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		173FE348187320FF0022B562 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSX IPython Notebook Launcher.app/Contents/MacOS/OSX IPython Notebook Launcher";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OSX IPython Notebook Launcher/OSX IPython Notebook Launcher-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "OSX IPython Notebook LauncherTests/OSX IPython Notebook LauncherTests-Info.plist";
-				PRODUCT_NAME = "IP[x]Tests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		173FE349187320FF0022B562 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSX IPython Notebook Launcher.app/Contents/MacOS/OSX IPython Notebook Launcher";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OSX IPython Notebook Launcher/OSX IPython Notebook Launcher-Prefix.pch";
-				INFOPLIST_FILE = "OSX IPython Notebook LauncherTests/OSX IPython Notebook LauncherTests-Info.plist";
-				PRODUCT_NAME = "IP[x]Tests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -496,15 +388,6 @@
 			buildConfigurations = (
 				173FE345187320FF0022B562 /* Debug */,
 				173FE346187320FF0022B562 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		173FE347187320FF0022B562 /* Build configuration list for PBXNativeTarget "IP[x]Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				173FE348187320FF0022B562 /* Debug */,
-				173FE349187320FF0022B562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

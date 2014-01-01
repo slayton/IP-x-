@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "173FE312187320FF0022B562"
-               BuildableName = "IPyNb.app"
+               BuildableName = "IP[x].app"
                BlueprintName = "IP[x]"
                ReferencedContainer = "container:IP[x].xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "173FE312187320FF0022B562"
-            BuildableName = "IPyNb.app"
+            BuildableName = "IP[x].app"
             BlueprintName = "IP[x]"
             ReferencedContainer = "container:IP[x].xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "173FE312187320FF0022B562"
-            BuildableName = "IPyNb.app"
+            BuildableName = "IP[x].app"
             BlueprintName = "IP[x]"
             ReferencedContainer = "container:IP[x].xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "173FE312187320FF0022B562"
-            BuildableName = "IPyNb.app"
+            BuildableName = "IP[x].app"
             BlueprintName = "IP[x]"
             ReferencedContainer = "container:IP[x].xcodeproj">
          </BuildableReference>
