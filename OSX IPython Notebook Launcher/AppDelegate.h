@@ -7,9 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#include "MasterViewController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (nonatomic,strong) IBOutlet MasterViewController *masterViewController;
+    
 @property (assign) IBOutlet NSWindow *window;
 
 @end

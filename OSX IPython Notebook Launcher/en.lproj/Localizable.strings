@@ -1,0 +1,10 @@
+/* 
+  strings.strings
+  OSX IPython Notebook Launcher
+
+  Created by Stuart Layton on 12/31/13.
+  Copyright (c) 2013 Stuart Layton. All rights reserved.
+*/
+
+"btn_label_launch" = "Launch IPython Notebook";
+"btn_label_terminate" = "Terminate IPython Notebook";

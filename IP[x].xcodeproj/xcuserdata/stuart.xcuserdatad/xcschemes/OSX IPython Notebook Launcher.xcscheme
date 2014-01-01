@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "173FE312187320FF0022B562"
-               BuildableName = "OSX IPython Notebook Launcher.app"
-               BlueprintName = "OSX IPython Notebook Launcher"
-               ReferencedContainer = "container:OSX IPython Notebook Launcher.xcodeproj">
+               BuildableName = "IPyNb.app"
+               BlueprintName = "IP[x]"
+               ReferencedContainer = "container:IP[x].xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "173FE333187320FF0022B562"
                BuildableName = "OSX IPython Notebook LauncherTests.xctest"
-               BlueprintName = "OSX IPython Notebook LauncherTests"
-               ReferencedContainer = "container:OSX IPython Notebook Launcher.xcodeproj">
+               BlueprintName = "IP[x]Tests"
+               ReferencedContainer = "container:IP[x].xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "173FE312187320FF0022B562"
-            BuildableName = "OSX IPython Notebook Launcher.app"
-            BlueprintName = "OSX IPython Notebook Launcher"
-            ReferencedContainer = "container:OSX IPython Notebook Launcher.xcodeproj">
+            BuildableName = "IPyNb.app"
+            BlueprintName = "IP[x]"
+            ReferencedContainer = "container:IP[x].xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "173FE312187320FF0022B562"
-            BuildableName = "OSX IPython Notebook Launcher.app"
-            BlueprintName = "OSX IPython Notebook Launcher"
-            ReferencedContainer = "container:OSX IPython Notebook Launcher.xcodeproj">
+            BuildableName = "IPyNb.app"
+            BlueprintName = "IP[x]"
+            ReferencedContainer = "container:IP[x].xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "173FE312187320FF0022B562"
-            BuildableName = "OSX IPython Notebook Launcher.app"
-            BlueprintName = "OSX IPython Notebook Launcher"
-            ReferencedContainer = "container:OSX IPython Notebook Launcher.xcodeproj">
+            BuildableName = "IPyNb.app"
+            BlueprintName = "IP[x]"
+            ReferencedContainer = "container:IP[x].xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
